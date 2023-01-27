@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./rsc/imagens/favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="./rsc/css/reset.css">
+
+    <link rel="stylesheet" href="./rsc/css/estilos.css">
+    
+    <link rel="stylesheet" href="./rsc/css/responsivo.css">
+
+    <title>PROJETO SUPER MARIO BROS</title>
+</head>
+<body>
+
+    <div class="fundo-video">
+        <video class="video" autoplay loop muted>
+            <source src="./rsc/video/video-mario.mp4" type="video/mp4"> 
+        </video>
+    </div>
+    <header class="cabecalho">
+        <a>
+            <img class=logo src="./rsc/imagens/logo-chapeu-mario.png" alt="logo chapeu mario">
+        </a>
+        <nav >
+            <ul class="menu">
+                <li><a href="#">home</a></li>
+                <li><a href="#">DETALHES</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="informacoes">
+            <img class="imagem-titulo" src="./rsc/imagens/titulo.png" alt="imagem do titulo do filme">
+            <p class="descricao">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore harum reprehenderit ipsum omnis, sunt distinctio dolorem eveniet sint id alias soluta beatae sapiente tenetur a minima, iusto suscipit, nemo veritatis?</p>
+            <button class="botao-trailer">TRAILER</button>
+        </div>
+        <img class="mario" src="./rsc/imagens/super-mario-chars.png" />
+
+        <div class="modal">
+            <div class="conteudo-model">
+                <span class="fechar-modal"></span>
+                <iframe id="video" width="560" height="315" src="./rsc/video/video-mario.mp4" title="trailer oficial" frameborder="1" allow="accelerometer; autoplay; clipborard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+
+    <script src="./rsc/js/index.js"></script>
+</body>
+</html>
